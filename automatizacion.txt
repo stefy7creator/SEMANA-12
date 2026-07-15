@@ -1,0 +1,10 @@
+DISEÑO DE AUTOMATIZACIÓN DEL SISTEMA
+Plataforma utilizada: n8n conectada a un bot de Telegram.
+1. Evento que activa la automatización:
+Una causa comunitaria alcanza la meta mínima de apoyos (por ejemplo, 50 firmas registradas en la base de datos).
+2. Mensaje automático enviado al canal de la comunidad:
+"¡Meta alcanzada! La iniciativa comunitaria sobre 'Repavimentación de la vía principal' ha recibido los apoyos necesarios
+y su documento PDF formal de petición ha sido generado para radicación. ¡Gracias por participar!"
+3. Información que NO debe enviarse por seguridad:
+Bajo ninguna circunstancia se enviarán nombres completos, números de cédula, direcciones, correos electrónicos,
+datos sensibles de los firmantes o comentarios de carácter privado recopilados en la plataforma.
