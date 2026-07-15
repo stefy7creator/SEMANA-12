@@ -1,0 +1,17 @@
+DISEÑO DE MODELO DE DATOS - PETICIÓN EN 3 CLICS
+Entidad: Causa
+Campos principales:
+- id (Clave primaria - Numérico incremental)
+- titulo (Texto corto - Título descriptivo de la iniciativa)
+- descripcion (Texto largo - Explicación detallada del problema y la petición)
+- fecha_creacion (Fecha - Cuándo se registró la propuesta)
+Propósito:
+Almacenar de forma segura el registro histórico y los detalles de las iniciativas propuestas por la comunidad para que permanezcan visibles en la plataforma.
+Entidad: Apoyo
+Campos principales:
+- id (Clave primaria - Numérico incremental)
+- causa_id (Clave foránea - Relación directa con el ID de la Causa apoyada)
+- codigo_ciudadano (Texto - Identificador anónimo generado para validar que es un voto único)
+- fecha_apoyo (Fecha - Cuándo se sumó el respaldo)
+Propósito:
+Registrar los respaldos individuales y verificar la legitimidad de las firmas de manera totalmente segura, impidiendo la duplicidad de votos sin exponer la identidad de los votantes.
